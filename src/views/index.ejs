@@ -1,18 +1,9 @@
-<!DOCTYPE html>
-<html lang="pt-BR">
-
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Judson Rian</title>
-  <link rel="stylesheet" type="text/css" href="/frontend/assets/css/style.css">
-</head>
-
-<body>
+<%- include('includes/head'); %>
 
   <section class="container">
-    <h1>Lorem ipsum dolor sit amet</h1>
+    <h1>
+      <%= titulo %>
+    </h1>
     <form action="/" method="post">
       <label>Cliente</label>
       <input type="text" name="cliente">
@@ -20,7 +11,4 @@
     </form>
   </section>
 
-  <script src="./assets/js/bundle.js"></script>
-</body>
-
-</html>
+<%- include('includes/footer'); %>
